@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-inline: 75px;
+    padding-block: 12px;
+}
+header > div > img {
+    height: 30px;
+    width: 30px;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+header > div:nth-child(1) > p:nth-child(2) {
+    border-right: 2px solid white;
+    padding-right: 8px;
+}
+header > div:nth-child(2) > a:nth-child(1) {
+    background-color: #191C1B;
+    padding: 13px;
+    border-radius: 12px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+header > div:nth-child(2) > a:nth-child(2) {
+    background-color: #4C5FD5;
+    padding-block: 13px;
+    padding-inline: 23px;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+}
+

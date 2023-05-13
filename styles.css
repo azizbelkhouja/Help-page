@@ -90,4 +90,42 @@ main > section:nth-child(1) > h1 {
     padding: 0;
     margin: 0;
 }
+main > section:nth-child(2) {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+main > section:nth-child(2) > div {
+    display: flex;
+    gap: 50px;
+    
+    > div {
+        display: flex;
+        gap: 25px;
+
+    }
+}
+main > section:nth-child(2) > div > div > img {
+    height: 100px;
+    width: 100px;
+}
+main > section:nth-child(2) > div > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > h2 {
+        margin: 0;
+    }
+    > a {
+        color: blue;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
 

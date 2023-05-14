@@ -132,6 +132,82 @@ main > section:nth-child(2) > div > div > div {
 
 }
 
+footer {
+    height: 340px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+
+    padding: 30px 100px;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        > a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0;
+        }
+        > h3 {
+            color: white;
+            font-size: 24px;
+            line-height: 28px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            > a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+            }
+            > h3 {
+                color: white;
+                font-size: 24px;
+                line-height: 28px;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+        }
+        > img {
+            height: 40px;
+            width: 40px;
+        }
+        > p {
+            color: white;
+            margin: 0;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}
+footer > div:last-child {
+    margin-top: auto;
+    margin-left: auto;
+}
+footer > div > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    > a {
+        margin: 0;
+    }
+    > h3 {
+        margin: 50px 0 0 0;
+    }
+}
+
 
 
 

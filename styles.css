@@ -139,7 +139,7 @@ footer {
     align-items: flex-start;
     gap: 45px;
 
-    padding: 30px 100px;
+    padding: 50px 140px;
 
     > div {
         display: flex;
@@ -205,6 +205,30 @@ footer > div > div:last-child {
     }
     > h3 {
         margin: 50px 0 0 0;
+    }
+}
+a:hover {
+    text-decoration: underline;
+}
+.help {
+    color: white;
+    background-color: #4C5FD5;
+    border-radius: 30px;
+
+    position: fixed;
+    bottom: 14px;
+    left: 90%;
+    padding: 8px 40px;
+
+    display: flex;
+
+    cursor: pointer;
+
+    > a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
     }
 }
 
